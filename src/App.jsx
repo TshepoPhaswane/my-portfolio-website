@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import Navbar from './sections/Navbar'
+import Hero from './sections/Hero'
 
 
 const App = () => {
@@ -7,8 +8,7 @@ const App = () => {
   return (
     <div className="relative w-screen min-h-screen overflow-x-hidden">   
       <Navbar/> 
-      <section id="home" className='min-h-screen'/>
-      <section id="services" className='min-h-screen bg-amber-900'/>
+      <Hero/>
     </div>
   )
 }

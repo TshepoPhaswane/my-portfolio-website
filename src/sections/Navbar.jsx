@@ -132,7 +132,7 @@ function Navbar() {
    items-center justify-center gap-1 
    transition-all duration-300 bg-black 
    rounded-full cursor-pointer
-    w-14 h-14 md:w-20 h-20 top-4 right-10"
+    w-14 h-14 md:w-20 md:h-20 top-4 right-10"
     onClick={toggleMenu}
     style={showBurger?{clipPath: "circle(50% at 50% 50%)"}:
           {clipPath:"circle(0% at 50% 50%)"}} 
